@@ -1,0 +1,3 @@
+# trendnet
+phew. nice hardware. but not easily configured...
+Some hints to remember whenever I have to touch that stuff.
