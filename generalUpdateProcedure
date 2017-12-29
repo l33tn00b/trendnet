@@ -1,0 +1,12 @@
+Set address of local machine's ethernet port to 192.0.0.128
+unlpug camera's power supply (POE or barrel jack)
+make sure you've got the right version of digicap-file in local directory of tftp server
+start tftp server (best: python)
+plug in camera power
+wait some seconds (5..10), tftp server should display handshake message
+wait some more seconds (up to ~30), tftp download to camera should start
+wait for download to complete
+unplug (!!!) local machine's network (ethernet) connection (else update will restart after camera restart)
+wait some time (minutes) until camera has completed boot process
+camera shows up as 192.168.1.64
+happily set up camera according to your network configuration and requirements.
